@@ -55,7 +55,7 @@ export default function About() {
             <div className="pt-4">
               <a
                 id="about-resume-download"
-                href="#resume.pdf" // Placeholder link
+                href="resumepdf" // Placeholder link
                 onClick={(e) => {
                   e.preventDefault();
                   alert("Anjali Omble's Professional CV Download started! (Demoware Placeholder Triggered)");
