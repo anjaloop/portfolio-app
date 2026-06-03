@@ -2,6 +2,7 @@ import profileImg from './assets/images/profile-pic.jpeg';
 import todoapp from './assets/images/todo-app.png';
 import registerapp from './assets/images/register-app.png';
 import portfoliyoapp from './assets/images/portfolio-app.png';
+import resumepdf from './assets/pdf/resume.pdf';
 
 import { Skill, Project, Service, ExperienceHighlight } from './types';
 import { profile } from 'console';
@@ -11,7 +12,7 @@ export const developerDetails = {
   title: "Student Developer | Open to Opportunities",
   intro: "I build robust, high-performance web  applications with pristine user interfaces. Armed with modern web technologies, I bridge the gap between complex engineering and elegant, fluid design.",
   profileImage: profileImg, // Placeholder or self-referential
-  resumeUrl: "./assets/pdf/resume.pdf", // Placeholder or self-referential
+  resumeUrl: resumepdf, // Placeholder or self-referential
   aboutText: "Hello! I am a passionate developer & Third Year Electronics And Computer Engineering student at the Vidyalankar Polytechnic. I specialize in crafting high-performance web  applications with a keen eye for design. My journey in software development has been driven by a love for solving complex problems and creating seamless user experiences. I am proficient in modern web technologies such as React, HTML, CSS, and JavaScript I am always eager to learn new tools and frameworks. I am currently seeking new opportunities to apply my skills and contribute to innovative projects.",
   socials: {
     github: "https://github.com/anjaloop",
